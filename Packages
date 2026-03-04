@@ -15,11 +15,6 @@ Author: tihmstar
 Dev: tihmstar
 Name: kDFUApp
 
-
-
-
-
-
 Package: com.lukezgd.kDFUBundles
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -86,3 +81,93 @@ Priority: optional
 Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
 Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
 Name: libpartialzip-1.0.0
+
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm
+Maintainer: Karen/??? <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/appsyncunified_116.0.deb
+Size: 78056
+MD5sum: 94325cbe75c1b30c15b7f4f24defd37b
+SHA1: 698bcbf521d81925cf4528d4661fb4af973e5dab
+SHA256: ffb6b3dfd84c8e6285c961bfc94f9645b2b194791d8dc43bcfc56f6b66b15e01
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/???, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm64
+Maintainer: Karen/??? <karen@akemi.ai>
+Installed-Size: 668
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/appsyncunified_116.0_x64.deb
+Size: 49472
+MD5sum: d6a31911e878b83e47c6525fa29ecef1
+SHA1: d00d2667c0d5421dddfc70a2734f1d63b972a535
+SHA256: 2bdaac72a6d1b006309b7dd28f51b1e3d351d3d8758fc9f08ca670f1d71eb382
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/???, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: vn.gsm.auxo.org
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: A3tweaks
+Depends: mobilesubstrate
+Filename: debs/vn.gsm.auxo.org_1.4-2.deb
+Size: 1820470
+MD5sum: b0ccb5859f9754711f0225cc1b2eb649
+SHA1: 94317469c488f165d8adf262fc8664183c37e59b
+SHA256: 534994129d3161020642072213bd0bf7ea61e289232c56512d86843e2320f2c9
+Section: Tweak
+Description: Auxo is a popular tweak for Cydia that completely redesigns the standard iOS multitasking interface and adds powerful system controls.
+Instead of simple app icons, Auxo shows live preview cards of running applications, allowing you to quickly switch between them with smooth swipe gestures. It also integrates quick toggles for Wi-Fi, Bluetooth, brightness, music controls, and more directly into the multitasking view.
+Auxo combines multitasking and Control Center into one clean interface, adds gestures for closing multiple apps at once, and provides a modern design with smooth animations. It became especially popular on jailbroken devices running iOS 67
+Author: A3tweaks
+Name: Auxo
+
+Package: com.cannathea.afc2d-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: saurik, Cannathea
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.cannathea.afc2d-arm64_1.1.1.deb
+Size: 19468
+MD5sum: 63342514d0bb6350d54a327150da1c32
+SHA1: 94317469c488f165d8adf262fc8664183c37e59b
+SHA256: 5293c7908a4b6ba39bd1e0f189dcb25222b1d2831f4d001011a88d5e73312dc0
+Section: System
+Description: 
+Author: saurik, Cannathea
+Name: Apple File Conduit "2" (iOS 11+ arm64)
+
+Package: com.saurik.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik)
+Depends: mobilesubstrate
+Filename: debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 18114
+MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
+SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
+SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
+Section: System
+Description: 
+Author: Jay Freeman (saurik)
+Name: Apple File Conduit "2"
