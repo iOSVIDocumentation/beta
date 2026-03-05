@@ -190,9 +190,9 @@ Size: 18114
 MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
 Section: System
 Priority: optional
-Description: allow full file-system access over USB
+Description: full file-system access over USB
 Tag: purpose::daemon, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: https://cydia.saurik.com/info/com.saurik.afc2d/
+Author: Jay Freeman (sauik) <saurik@saik.com>
+Depiction: ios fyile system
 Name: Apple File Conduit "2"
 
