@@ -140,26 +140,6 @@ SileoDepiction: https://mtp13013.yourepo.com/sileo/depiction/applefileconduit2io
 Filename: debs/applefileconduit2ios11arm64_1.2.0_iphoneos-arm.deb
 Icon: https://cdn-static.yourepo.com/images/sections/users/1.png
 
-Package: com.saurik.afc2d
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: firmware (<< 8.0) | mobilesubstrate
-Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
-Size: 18114
-MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
-Section: System
-Priority: optional
-Description: full file-system access over USB
-Tag: purpose::daemon, role::enduser
-Author: Jay Freeman (sauik) <saurik@saik.com>
-Depiction: ios fyile system
-Name: Apple File Conduit "2"
-
 Package: com.yourepo.broadway.cydown
 Architecture: iphoneos-arm
 Name: CyDown
