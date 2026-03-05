@@ -141,21 +141,25 @@ Auxo combines multitasking and Control Center into one clean interface, adds ges
 Author: A3tweaks
 Name: Auxo
 
-Package: com.cannathea.afc2d-arm64
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: saurik, Cannathea
+Package: com.yourepo.mtp13013.applefileconduit2ios11arm64
+Architecture: iphoneos-arm
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Version: 1.2.0
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
+Author: saurik, Cannathea <csupport@cannathea.com>
+Section: Addons
+Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: debs/com.cannathea.afc2d-arm64_1.1.1.deb
-Size: 19468
-MD5sum: 63342514d0bb6350d54a327150da1c32
-SHA1: 94317469c488f165d8adf262fc8664183c37e59b
-SHA256: 5293c7908a4b6ba39bd1e0f189dcb25222b1d2831f4d001011a88d5e73312dc0
-Section: System
-Description: open file system
-Author: saurik, Cannathea
-Name: Apple File Conduit "2" (iOS 11+ arm64)
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Size: 27572
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Md5sum: a61baee87cc6b1ab72227ef3db60c84b
+SHA256: b73ccb13c2fca0fb8d89eb17e3a379167ab98f743646a6b5de4b217a4fa01a25
+Depiction: https://mtp13013.yourepo.com/pack/applefileconduit2ios11arm64
+SileoDepiction: https://mtp13013.yourepo.com/sileo/depiction/applefileconduit2ios11arm64
+Filename: debs/applefileconduit2ios11arm64_1.2.0_iphoneos-arm.deb
+Icon: https://cdn-static.yourepo.com/images/sections/users/1.png
 
 Package: com.saurik.afc2d
 Version: 1.2
