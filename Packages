@@ -84,27 +84,6 @@ Name: libpartialzip-1.0.0
 
 Package: ai.akemi.appsyncunified
 Version: 116.0
-Architecture: iphoneos-arm
-Maintainer: Karen/??? <karen@akemi.ai>
-Installed-Size: 636
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/appsyncunified_116.0.deb
-Size: 78056
-MD5sum: 94325cbe75c1b30c15b7f4f24defd37b
-SHA1: 698bcbf521d81925cf4528d4661fb4af973e5dab
-SHA256: ffb6b3dfd84c8e6285c961bfc94f9645b2b194791d8dc43bcfc56f6b66b15e01
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Karen/???, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
-Name: AppSync Unified
-
-Package: ai.akemi.appsyncunified
-Version: 116.0
 Architecture: iphoneos-arm64
 Maintainer: Karen/??? <karen@akemi.ai>
 Installed-Size: 668
@@ -164,21 +143,6 @@ Icon: https://cdn-static.yourepo.com/images/sections/users/1.png
 Package: com.saurik.afc2d
 Version: 1.2
 Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik)
-Depends: mobilesubstrate
-Filename: debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
-Size: 18114
-MD5sum: 34291f44d22cfbbf3eb4bad0ade3b89c
-SHA1: bddaf385263b9aad2b032b2116179f83afd077cc
-SHA256: 287ac4ce1a6e4095e824fd90f71fed301ff7d9508f1cd2d87a7354053e347a3c
-Section: System
-Description: open file system
-Author: Jay Freeman (saurik)
-Name: Apple File Conduit "2"
-
-Package: com.saurik.afc2d
-Version: 1.2
-Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: firmware (<< 8.0) | mobilesubstrate
@@ -196,3 +160,19 @@ Author: Jay Freeman (sauik) <saurik@saik.com>
 Depiction: ios fyile system
 Name: Apple File Conduit "2"
 
+Package: com.yourepo.broadway.cydown
+Architecture: iphoneos-arm
+Name: CyDown
+Version: 6.0.6
+Description: Install paid packages for Free in Cydia!
+Author: julioverne <broadway219thebest@gmail.com>
+Section: Tweaks
+Depends: cydia (>= 1.1.23), mobilesubstrate, preferenceloader, firmware (<< 8.3) | ldid (>= 1:1.2.1), coreutils-bin, coreutils, apt7
+Size: 439620
+Maintainer: broadway <broadway219thebest@gmail.com>
+Md5sum: 726c4a0eb4050f669430b0b87b336476
+SHA256: 51ff79b9c7c763bab568108800783fa2ada180d80d9b5f1738532066d67017dd
+Depiction: https://broadway.yourepo.com/pack/cydown
+SileoDepiction: https://broadway.yourepo.com/sileo/depiction/cydown
+Filename: debs/cydown_6.0.6_iphoneos-arm.deb
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
