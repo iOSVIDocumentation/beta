@@ -185,7 +185,7 @@ Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 132
 Depends: mobilesubstrate, firmware (>=5.0)
 Conflicts: uk.invoxiplaygames.letmestealinpeace
-Filename: ./files/simalertsuppression-1.0.deb
+Filename: debs/simalertsuppression-1.0.deb
 Size: 2810
 MD5sum: 93cd24e6c82108068e54435453587ac4
 SHA1: 9eff439f4635d83fffbd9565ca926612d08f2bf9
@@ -203,7 +203,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 3.0)
-Filename: ./files/checkmatestore-1.0.deb
+Filename: debs/checkmatestore-1.0.deb
 Size: 4526
 MD5sum: 0cf8f191025744d188a84aea76ea3bde
 SHA1: e2aabe60c440a0f48da3b3ebd4dddb0d1042a2aa
@@ -220,7 +220,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 3.0)
-Filename: ./files/checkmatestore-1.0.1.deb
+Filename: debs/checkmatestore-1.0.1.deb
 Size: 4500
 MD5sum: 4c2de15f36445e0c2f56db6556382ef8
 SHA1: 4e0e35ad0267b06e542fee20e88277db713a8946
@@ -237,7 +237,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: ./files/checkmatestore-1.1.deb
+Filename: debs/checkmatestore-1.1.deb
 Size: 4518
 MD5sum: c2ea6cc05a4452f3549ff653e70a4273
 SHA1: ca2f5aabc512960c665d258738e7d47c55c413f5
@@ -254,7 +254,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: ./files/checkmatestore-1.2.deb
+Filename: debs/checkmatestore-1.2.deb
 Size: 5200
 MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
 SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
@@ -270,7 +270,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: HackYouriPhone <repo@hackyouriphone.org>
 Depends: firmware (>=13.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.hackyouriphone.icloudbypassfixer_1.0_iphoneos-arm.deb
+Filename: debs/com.hackyouriphone.icloudbypassfixer_1.0_iphoneos-arm.deb
 Size: 17860
 MD5sum: d2eae59f78b278aad78eeff9e8aa2d04
 SHA1: eb197a7bf797c83026c37dc4b8bdc24bc9232456
@@ -289,7 +289,7 @@ Architecture: iphoneos-arm
 Maintainer: Genius Blog <appsync@hackulo.us>
 Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
 Depends: com.hackulo.us.sourcegui
-Filename: ./debs/appsync31-1.0.1.deb
+Filename: debs/appsync31-1.0.1.deb
 Size: 296542
 MD5sum: 534080636c26e40d3efbdf195f3bfdfb
 SHA1: 2e3be3668f26c9d4ac7b796042aa7b05184fe4ae
@@ -308,7 +308,7 @@ Architecture: iphoneos-arm
 Maintainer: Genius Blog <appsync@hackulo.us>
 Pre-Depends: firmware (= 3.1) | firmware (= 3.1.1) | firmware (= 3.1.2) | firmware (= 3.1.3) | firmware (= 3.1.4)
 Provides: appsync
-Filename: ./debs/appsync31-1.0.2.deb
+Filename: debs/appsync31-1.0.2.deb
 Size: 248082
 MD5sum: 4833d00d8bb9c6da0ad06aa0f13a0acf
 SHA1: 0d985691581885d323d61bbfc195602d6b281e46
@@ -326,7 +326,7 @@ Architecture: iphoneos-arm
 Maintainer: Dissident <apps@hackulo.us>
 Pre-Depends: firmware (= 3.2) | firmware (= 3.2.1) | firmware (= 3.2.2)
 Depends: com.hackulo.us.sourcegui
-Filename: ./debs/appsync32-1.0.1-3.deb
+Filename: debs/appsync32-1.0.1-3.deb
 Size: 274594
 MD5sum: 0a8fa6363baa0e9eee6381cf84b16c77
 SHA1: b1afb4c3c0c83c0dde8eb0d53602b5c7cdfb10fe
@@ -345,7 +345,7 @@ Architecture: iphoneos-arm
 Maintainer: Dissident <apps@hackulo.us>
 Pre-Depends: firmware (= 3.2) | firmware (= 3.2.1) | firmware (= 3.2.2)
 Provides: appsync
-Filename: ./debs/appsync32-1.0.2.deb
+Filename: debs/appsync32-1.0.2.deb
 Size: 222738
 MD5sum: 6463e5043d00ef07d8010f3f654eca98
 SHA1: 0148903ce31af0d2f0b1bbb14b73056621db30f2
