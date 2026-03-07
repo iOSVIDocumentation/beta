@@ -460,18 +460,41 @@ Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/
 Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
 Name: TubeRepair [BETA]
 
-Package: com.hackyouriphone.localiapstore
-Name: LocalIAPStore
-Version: 1.4-4
-Depends: firmware (>= 6.0), firmware (<= 12.5.7), mobilesubstrate, preferenceloader
+Package: com.yourepo.zxverowner.localiapstore
 Architecture: iphoneos-arm
-Author: anondev <repo@hackyouriphone.org>
-Priority: extra
+Name: LocalIAPStore
+Version: 1.4-2
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Author: BYA Repository <karlchnintendoacc@gmail.com>
 Section: Tweaks
-Filename: debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
-Size: 70872
-SHA256: 5e1443f4d1bc94fa2bc7ac6a775d5f2880459d065f9add3ef457571bbcba4e1c
-SHA1: f22b3a920064eab740985e910f185821f04bd087
-MD5sum: 037efc8dae5755b907791008058b1951
-Description: Pwns In-App purchases on iOS 6.0 - 12.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Size: 70940
+Maintainer: anon dev
+Md5sum: 3c64acdf0af88c9d5ff847a5d96d9faa
+SHA256: d55a9f7c85058fee322cba848a7ac3de26db119867b71b830f9f7f07f3f1387b
+Depiction: 
+SileoDepiction: 
+Filename: debs/localiapstore_1.4-2_iphoneos-arm.deb
+Icon: https://cdn-static.yourepo.com/images/sections/users/33.png
+
+Package: com.officialscheduler.mterminal
+Version: 1.4-5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 325
+Depends: firmware (>= 4.0), system-cmds
+Filename: ./debs/debs2.0/mterminal_1.4-5.deb
+Size: 107204
+MD5sum: ca89ef2a021eb532ab64a3f584d4c9d4
+SHA1: 86a7feea0d4c0c21bf169ac7c5e25ce1f8079724
+SHA256: a0138646daa42478b726ec164a261a9c31b8ac29f91e5cf500f194ece9039924
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Description: A MobileTerminal fork
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Author: lordscotland <admin@officialscheduler.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Dev: officialscheduler
+Icon: file:///Applications/MTerminal.app/Icon.png
+Name: MTerminal
+Sponsor: thebigboss.org <http://thebigboss.org>
