@@ -459,3 +459,74 @@ Author: bag.xml, Requis
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
 Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
 Name: TubeRepair [BETA]
+
+Package: com.hackyouriphone.localiapstore
+Name: LocalIAPStore
+Version: 1.4-4
+Depends: firmware (>= 6.0), firmware (<= 12.5.7), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Author: anondev <repo@hackyouriphone.org>
+Priority: extra
+Section: Tweaks
+Filename: ./debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 70872
+SHA256: 5e1443f4d1bc94fa2bc7ac6a775d5f2880459d065f9add3ef457571bbcba4e1c
+SHA1: f22b3a920064eab740985e910f185821f04bd087
+MD5sum: 037efc8dae5755b907791008058b1951
+Description: Pwns In-App purchases on iOS 6.0 - 12.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+
+Package: com.officialscheduler.mterminal
+Version: 1.4-5
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 4.0), firmware (<= 10.3.4), system-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/mterminal_1.4-5.deb
+Size: 129066
+Installed-Size: 325
+MD5sum: ab7927cb5e6dbd8bf9de7cb0026f00fc
+SHA256: 37410dc1934af88723bbda14029882f9181b1ed8484590455798e590013f93c3
+Name: MTerminal
+Icon: file:///Applications/MTerminal.app/Icon.png
+Description: A MobileTerminal fork
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: lordscotland <admin@officialscheduler.com>
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+dev: officialscheduler
+
+Package: eu.heinelt.ifile
+Version: 2.2.0-1
+Section: System
+Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Depends: firmware (>= 2.0), firmware (<= 10.3.4), file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Architecture: iphoneos-arm
+Filename: ./debs/eu.heinelt.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9735664
+Installed-Size: 20224
+MD5sum: a1709dcd74e46ad4ca71a28955d86214
+SHA256: f48871ac1912094d6084bd84c53ed18d95fa5f3ae3cb09d602a5581b00fe195c
+Name: iFile
+Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Tag: purpose::uikit, cydia::commercial
+dev: carsten
+
+Package: com.r333d.cylinder
+Version: 1.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 3.0), firmware (<= 13.7), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/cylinder_1.1.deb
+Size: 504270
+Installed-Size: 1419
+MD5sum: fcd79320ae5c4f5bcbaeae331e57e41f
+SHA256: fab704e65d41a8c4d40d015cf9710b8ff960a1261e6f7c32cd5243ee5459d9a3
+Name: Cylinder
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+Description: Make your homescreen icons dance.
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Reed Weichler <rweichler+cydia@gmail.com>
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+dev: rweichler
