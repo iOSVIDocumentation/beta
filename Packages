@@ -468,7 +468,7 @@ Architecture: iphoneos-arm
 Author: anondev <repo@hackyouriphone.org>
 Priority: extra
 Section: Tweaks
-Filename: ./debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
+Filename: debs/com.hackyouriphone.localiapstore_1.4-4_iphoneos-arm.deb
 Size: 70872
 SHA256: 5e1443f4d1bc94fa2bc7ac6a775d5f2880459d065f9add3ef457571bbcba4e1c
 SHA1: f22b3a920064eab740985e910f185821f04bd087
@@ -482,7 +482,7 @@ Section: Utilities
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 4.0), firmware (<= 10.3.4), system-cmds
 Architecture: iphoneos-arm
-Filename: ./debs/mterminal_1.4-5.deb
+Filename: debs/mterminal_1.4-5.deb
 Size: 129066
 Installed-Size: 325
 MD5sum: ab7927cb5e6dbd8bf9de7cb0026f00fc
@@ -501,7 +501,7 @@ Section: System
 Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
 Depends: firmware (>= 2.0), firmware (<= 10.3.4), file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Architecture: iphoneos-arm
-Filename: ./debs/eu.heinelt.ifile_2.2.0-1_iphoneos-arm.deb
+Filename: debs/eu.heinelt.ifile_2.2.0-1_iphoneos-arm.deb
 Size: 9735664
 Installed-Size: 20224
 MD5sum: a1709dcd74e46ad4ca71a28955d86214
@@ -518,7 +518,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 3.0), firmware (<= 13.7), mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm
-Filename: ./debs/cylinder_1.1.deb
+Filename: debs/cylinder_1.1.deb
 Size: 504270
 Installed-Size: 1419
 MD5sum: fcd79320ae5c4f5bcbaeae331e57e41f
