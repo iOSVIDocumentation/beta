@@ -774,31 +774,12 @@ Name: WeatherX
 
 Package: com.aoi.storefix
 Architecture: iphoneos-arm
-Version: 1.0-6
+Version: 1.0-7
 Section: System
 Maintainer: aoi_satou
 Depends: firmware (<= 6.1.6)
 Conflicts: com.aoi.storefix 
 Filename: debs/com.aoi.storefix_1.0-7_iphoneos-arm.deb
-Size: 1270
-MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
-SHA1: d4ab9af662df651022afaa6775de04450d787ca7
-SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
-SHA512: da59a9eb59105af3cb0292b56c3df97400939322abe1bf2bedbd9e0019af157e1da57bfe42cd90c9cc710a47f732422c6b768a0480dacea371ab934b1d76f946
-Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
-Tag: purpose::extension
-Author: aoi_satou
-Name: AppStoreFix
-Depiction: http://aoiblog.jp/appstorefix_history.html
-dev: aoi_satou
-
-Package: com.aoi.storefix
-Achitecture: iphoneos-arm
-Version: 1.0-7
-Section: System
-Maintainer: satou@aoiblog.jp
-Depends: firmware (<= 6.1.6) ,net.nekokawa.appstorefix ,uk.invoxiplaygames.checkmatestore ,com.innoying.sbutils Conflicts: com.aoi.storefix
-filename: debs/te.deb
 Size: 1512
 MD5sum: c3182d4dc9df2c63fe4ec44c6a9949b5
 SHA1: 123cbd1cb54b56e4032f45b30543a0a4156951dd
@@ -806,9 +787,10 @@ SHA256: da5aaca8b0ca06ded50cc6fc975304972fc93a4efb309ba8e33da69ad4e73866
 SHA512: 965ac663d47f9b85d8ad231f1c1efee6decd894c1c5168ca089e7f01777c93920b3b7ef1cf10ccb1966237bf7b1ee7021880c1153db6bdd333cf9fc1d1f5cbcf
 Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
 Tag: purpose::extension
-Author: satou@aoiblog.jp
+Author: aoi_satou
 Name: AppStoreFix
-Depiction: http://aoiblog.jp/appstorefix_history2.html dev: aoi_satou
+Depiction: http://aoiblog.jp/appstorefix_history.html
+dev: aoi_satou
 
 Package: com.booleanmagic.displayrecorder
 Name: Display Recorder
