@@ -115,9 +115,9 @@ Size: 1818268
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Md5sum: da0251ab6e4cd63bdf939fbc675e30cb
 SHA256: 50f43562012fb5bd6f8fcd42ce858379f6dea60121f91082417187d5bab2513d
-Depiction: 
-SileoDepiction: 
-Filename: debs/auxo_1.4-2_iphoneos-arm.deb
+Depiction:
+SileoDepiction:
+Filename: debs/com.yourepo.dinamit.auxo_1.4-2_iphoneos-arm.deb
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 
 Package: com.yourepo.mtp13013.applefileconduit2ios11arm64
